@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="bxslider.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
- 
+ <link rel="stylesheet" href="animate.min.css" />
 
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/bxslider.min.js"></script>
@@ -50,7 +50,14 @@
   });
 });
   </script>
-
+  
+<style>
+  .animated:hover {
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  }
+</style>
+    
 </head>
 
 <body>
@@ -67,7 +74,7 @@
       <img class="main-image" src="image/meg-WD5p2ekiqm8-unsplash.jpg" width="360" height="160" alt="main image" />
       <p>Enjoy Adrib life</p>
     </div>
-    <h2>TENOR MANIA</h2>
+    <h2 class="animated rubberBand">TENOR MANIA</h2>
     <ul>
       <a href="#">
         <li><img src="image/3.jpg" width="100" height="100" alt="" />
