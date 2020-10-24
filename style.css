@@ -142,13 +142,16 @@ img{
 
        }
        
-  #main h2:first-of-type{
+   /*ulに指定した場合の例* 
+#main h2:first-of-type{
     margin:20px;
     padding-top:5px;
     background: #ccc;
     background-size: auto;
   }
- 
+ /
+  /**/
+
   #main ul{
   border-bottom: 1px solid #ccc;
   }
