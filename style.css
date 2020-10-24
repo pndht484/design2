@@ -379,3 +379,8 @@ color: #957255;
               background-color: rgba(0, 0, 0, 0.3);
           }
         }
+
+.animated:hover {
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  }
