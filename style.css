@@ -380,7 +380,3 @@ color: #957255;
           }
         }
 
-.animated:hover {
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
-  }
