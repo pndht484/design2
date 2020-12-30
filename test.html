@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="bxslider.min.css" />
- <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+ <link rel="stylesheet" href="fontawesome.css">
  -->
 
   <script src="/js/jquery.js"></script>
@@ -55,21 +55,7 @@
   </script>
 
 
-<script>
-$(function(){
-  $(window).on('load scroll', function() {
-     var winScroll = $(window).scrollTop();
-     var winHeight = $(window).height();
-     var scrollPos = winScroll + (winHeight * 0.8);
 
-     $(".show").each(function() {
-        if($(this).offset().top < scrollPos) {
-           $(this).css({opacity: 1, transform: 'translate(0, 0)'});
-        }
-     });
-  });
-});
-</script>
 
 
 </head>
